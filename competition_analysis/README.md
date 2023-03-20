@@ -20,14 +20,15 @@ We have included a [```runall.sh```](https://github.com/livkosterlitz/crowdsourc
 
 |Steps| Step description |
 | :--- | :--- | 
-| [Step 1](#Step-1) | Add a 4 character prefix to all the reads in each uncompressed fastq file. A necessary step for the downstream bartender workflow.| 
+| [Step 1](#Step-1)  | Add a 4 character prefix to all the reads in each uncompressed fastq file. A necessary step for the downstream bartender workflow.| 
 | [Step 2](#Step-2) | Extract the 18bp barcode from each sequenced read from the FASTQ file using Bartender.| 
 | [Step 3](#Step-3) | Cluster the 18bp barcodes into groups using Bartender.|
 | [Step 4](#Step-4) | Calculate barcode frequency by dividing the barcode counts by using the total counts in each sample.|
 | [Step 5](#Step-5) | Calculate the approximate growth rate for each barcode using the equation derived in supplemental section 1 of the accompanying manuscript.|
 | [Step 6](#Step-6) | Identify the level of resistance of each allele by fitting a four-parameter log logistic dose-response curve.|  
 
-## Step 1: Add read prefix {#Step-1}
+## Step 1: Add read prefix
+<a id="Step-1"></a>
 
 Utilize the decompressed [ ```.fastq``` ](https://github.com/livkosterlitz/crowdsourcing/tree/main/competition_analysis/data/sequencing) files to add a 4 character prefix to all of the reads with the following bash command. This step is essential for the subsequent bartender workflow. 
 
@@ -37,7 +38,8 @@ find "./data/sequencing" -type f -name "*.fastq" -exec cp {} "./results/1_sequen
 find "./results/1_sequencing_prefix" -type f -name "*.fastq" | xargs sed -i.bak 'n;s/^/AAAA/'
 ```
 
-## <a name="Step-2"></a> **Step 2** Barcode extraction
+## Step 2: Barcode extraction
+<a id="Step-2"></a>
 
 For each output ```.fastq``` file, extract the barcodes from each read using the barcode extractor from [bartender](https://github.com/LaoZZZZZ/bartender-1.1) with the bash command provided below. 
 
@@ -50,7 +52,8 @@ do
     bartender_extractor_com -f $FILE -o results/2_bartender_barcode_extract/${TREATMENT} -q ? -p AAAA[18]CGTA -m 2 -d both
 done
 ```
-## <a name="Step-3"></a> **Step 3** Barcode clustering
+## Step 3: Barcode clustering
+<a id="Step-3"></a>
 
 For each output ```.txt``` file from [Step 2](#Step-2), cluster the barcodes into groups using the barcode clustering from [bartender](https://github.com/LaoZZZZZ/bartender-1.1) using the bash command provided below. 
 
@@ -63,7 +66,8 @@ do
     bartender_single_com -f $FILE -o results/3_bartender_cluster/${TREATMENT} -d 3
 done
 ```
-## <a name="Step-4"></a> **Step 4** Calculate barcode frequency
+## Step 4: Calculate barcode frequency
+<a id="Step-4"></a>
 
 For each output ```cluster.csv``` file from [Step 3](#Step-3), analyze the clusters using the custom [```cluster_analysis.R```](https://github.com/livkosterlitz/crowdsourcing/blob/main/competition_analysis/src/cluster_analysis.R) script provided. The script performs the following steps: 
   * step a: Link the treatment's barcode clusters to the corresponding allele (e.g., single, double, and triple mutants, etc.) using the [genotype-barcode map](https://github.com/livkosterlitz/crowdsourcing/blob/main/competition_analysis/data/genotype_barcode_map.csv) verified through Sanger sequencing after plasmid cloning. 
@@ -82,7 +86,8 @@ do
 done
 ```
 
-## <a name="Step-5"></a> **Step 5** Calculate each barcode's approximate growth rate
+## Step 5: Calculate each barcode's approximate growth rate
+<a id="Step-5"></a>
 
 For each frequency output ```.csv``` file from [Step 4](#Step-4), calculate the approximate growth rate for each barcode using the custom [```treatment_analysis.R```](https://github.com/livkosterlitz/crowdsourcing/blob/main/competition_analysis/src/treatment_analysis.R) script provided. The script performs the following steps: 
  * step a: Determine the species-specific Cmax and the median approximate growth rate for Gprime at Cmax.
@@ -98,7 +103,9 @@ mkdir -p results/5_approximate_growth_rate/c_AppGrowthRate
 mkdir -p results/5_approximate_growth_rate/d_Outlier
 Rscript src/treatment_analysis.R -t data/treatment_master.xlsx -f results/4_barcode_frequency/b_frequencies/csv_files/ -m data/genotype_barcode_map.csv
 ```
-## <a name="Step-6"></a> **Step 6** Identify the level of resistance for each allele
+## Step 6: Identify the level of resistance for each allele
+<a id="Step-6"></a>
+
 Using the approximate growth rates for each barcode across the drug gradient, fit a four-parameter log logistic dose-response curve using the custom [```curve_analysis.R```](https://github.com/livkosterlitz/crowdsourcing/blob/main/competition_analysis/src/cluster_analysis.R) script provided. The script performs the following steps:
 
  * step a: Determine the average lower asymptote for each species by averaging the fitted lower asymptotes from the alleles with the lowest levels of resistance.
