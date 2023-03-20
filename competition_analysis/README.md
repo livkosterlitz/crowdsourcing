@@ -65,7 +65,7 @@ done
 ```
 ## <a name="Step-4"></a> **Step 4** Calculate barcode frequency
 
-For each output ```cluster.csv``` file from [Step 3](#Step-3), analyze the clusters using the custom [```culster_analysis.R```](https://github.com/livkosterlitz/crowdsourcing/blob/main/competition_analysis/src/curve_analysis.R) script provided. The script performs the following steps: 
+For each output ```cluster.csv``` file from [Step 3](#Step-3), analyze the clusters using the custom [```cluster_analysis.R```](https://github.com/livkosterlitz/crowdsourcing/blob/main/competition_analysis/src/cluster_analysis.R) script provided. The script performs the following steps: 
   * step a: Link the treatment's barcode clusters to the corresponding allele (e.g., single, double, and triple mutants, etc.) using the [genotype-barcode map](https://github.com/livkosterlitz/crowdsourcing/blob/main/competition_analysis/data/genotype_barcode_map.csv) verified through Sanger sequencing after plasmid cloning. 
   * step b: Calculate the barcode frequency by summing the total barcode counts in the treatment, then divides each barcode count by the total number of counts. 
 
