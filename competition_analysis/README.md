@@ -27,7 +27,7 @@ We have included a [```runall.sh```](https://github.com/livkosterlitz/crowdsourc
 | [Step 5](#Step-5) | Calculate the approximate growth rate for each barcode using the equation derived in supplemental section 1 of the accompanying manuscript.|
 | [Step 6](#Step-6) | Identify the level of resistance of each allele by fitting a four-parameter log logistic dose-response curve.|  
 
-## <a name="Step-1"></a> **Step 1** Add read prefix
+## Step 1: Add read prefix {#Step-1}
 
 Utilize the decompressed [ ```.fastq``` ](https://github.com/livkosterlitz/crowdsourcing/tree/main/competition_analysis/data/sequencing) files to add a 4 character prefix to all of the reads with the following bash command. This step is essential for the subsequent bartender workflow. 
 
