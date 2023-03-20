@@ -30,7 +30,7 @@ To replicate the results of the study, follow the steps provided in the respecti
 The [```figures```](https://github.com/livkosterlitz/Crowdsourcing) folder contains all the raw data, calculations, codes, and final figures includued in the publication. To access the associated data and materials, refer to the figure numbers as ordered in the paper.
 
 ## **Pooled competition analysis to construct host-specific landscapes**
-The [```competition_analysis```](https://github.com/livkosterlitz/Crowdsourcing) folder contains the code, workflow, and data generated from analyzing the data for the pooled competition assays used to construct host-specific landscapes.
+The [```competition_analysis```](https://github.com/livkosterlitz/crowdsourcing/tree/main/competition_analysis) folder contains the code, workflow, and data generated from analyzing the data for the pooled competition assays used to construct host-specific landscapes.
 
 ## **Simulations**
 The [```simulations```](https://github.com/livkosterlitz/Crowdsourcing) folder contains the code, workflow, and data generated from the evolutionary simulations. 
