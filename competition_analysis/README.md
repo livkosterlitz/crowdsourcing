@@ -5,18 +5,18 @@ The project has a hierarchical structure that separates data, results, and scrip
 
 1. [data](): Raw input files required for the analysis such as decompressed fastq files, genotype-barcode maps, and treatment master files.
 2. [results](): Sub-folders corresponding to each step of the analysis workflow. Each sub-folder stores the output files (e.g., .csv and .pdf) generated at that specific stage.
-3. [src](): Custom scripts (e.g., R scripts) used throughout the analysis workflow.
-4. [bin](): Utility files for creating the Anaconda environment and the master shell script.
+3. [src](https://github.com/livkosterlitz/crowdsourcing/tree/main/competition_analysis/src): Custom scripts (e.g., R scripts) used throughout the analysis workflow.
+4. [bin](https://github.com/livkosterlitz/crowdsourcing/tree/main/competition_analysis/bin): Utility files for creating the Anaconda environment and the master shell script.
 
 # Program Requirements
-We provided a [YAML ```.yml``` file]() to be used with Anaconda to provide an environment for this specific project. It defines the packages and their specific versions needed to run this code smoothly. This makes it easy to replicate this workflow across different machines and platforms. 
+We provided a [YAML ```.yml``` file](https://github.com/livkosterlitz/crowdsourcing/blob/main/competition_analysis/bin/crowdsourcing_environment.yml) to be used with Anaconda to provide an environment for this specific project. It defines the packages and their specific versions needed to run this code smoothly. This makes it easy to replicate this workflow across different machines and platforms. 
 
 ```bash
 conda env create -f bin/crowdsourcing_environment.yml
 ```
 
 # Analysis Workflow
-We have included a [```runall.sh``` script]() in our project to streamline the process of executing multiple commands and scripts in a specified sequence. The workflow consists of six main steps, each with various sub-steps denoted by alphabetical letters. Throughout the execution of these steps, the script generates a range of outputs, including ```.csv``` files and graphical plots saves as ```.pdf``` files. This automation helps ensure a consistent and efficient workflow, making it easier to manage and reproduce the project's outcomes. 
+We have included a [```runall.sh``` script](https://github.com/livkosterlitz/crowdsourcing/blob/main/competition_analysis/bin/runall.sh) in our project to streamline the process of executing multiple commands and scripts in a specified sequence. The workflow consists of six main steps, each with various sub-steps denoted by alphabetical letters. Throughout the execution of these steps, the script generates a range of outputs, including ```.csv``` files and graphical plots saves as ```.pdf``` files. This automation helps ensure a consistent and efficient workflow, making it easier to manage and reproduce the project's outcomes. 
 
 |Steps| Step description |
 | :--- | :--- | 
