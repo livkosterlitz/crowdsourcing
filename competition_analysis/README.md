@@ -85,7 +85,7 @@ done
 ## <a name="Step-5"></a> **Step 5** Calculate each barcode's approximate growth rate
 
 For each frequency output ```.csv``` file from [Step 4](#Step-4), calculate the approximate growth rate for each barcode using the custom [```treatment_analysis.R```](https://github.com/livkosterlitz/crowdsourcing/blob/main/competition_analysis/src/treatment_analysis.R) script provided. The script performs the following steps: 
-  * step a: Determine the species-specific Cmax and the median approximate growth rate for Gprime at Cmax.
+ * step a: Determine the species-specific Cmax and the median approximate growth rate for Gprime at Cmax.
  * step b: Calculate the median Tc for Gprime at each concentration.
  * step c: Calculate the approximate growth rate for each barcode using the concentration-specific Tc.
  * step d: Identify and eliminate the most deviant barcode for each allele. 
@@ -101,10 +101,10 @@ Rscript src/treatment_analysis.R -t data/treatment_master.xlsx -f results/4_barc
 ## <a name="Step-6"></a> **Step 6** Identify the level of resistance for each allele
 Using the approximate growth rates for each barcode across the drug gradient, fit a four-parameter log logistic dose-response curve using the custom [```curve_analysis.R```](https://github.com/livkosterlitz/crowdsourcing/blob/main/competition_analysis/src/cluster_analysis.R) script provided. The script performs the following steps:
 
-step a: Determine the average lower asymptote for each species by averaging the fitted lower asymptotes from the alleles with the lowest levels of resistance.
-step b: Fit dose-response curves using the species-specific lower asymptotes, and create visual representations of the fitted curves.
-step c: Calculate the level of resistance for each allele-species combination by averaging the inflection point parameters from each barcode, and report the resistance levels in two CSV output files. Both of these files are used in various figures in the accompanying manuscript. 
-step d: Determine if a mutational step was beneficial, deleterious, or neutral by comparing the level of resistance for each neighboring allele, and report the differences between neighboring alleles in two CSV output files. Both of these files are used in various figures in the accompanying manuscript. 
+ * step a: Determine the average lower asymptote for each species by averaging the fitted lower asymptotes from the alleles with the lowest levels of resistance.
+ * step b: Fit dose-response curves using the species-specific lower asymptotes, and create visual representations of the fitted curves.
+ * step c: Calculate the level of resistance for each allele-species combination by averaging the inflection point parameters from each barcode, and report the resistance levels in two CSV output files. Both of these files are used in various figures in the accompanying manuscript. 
+ * step d: Determine if a mutational step was beneficial, deleterious, or neutral by comparing the level of resistance for each neighboring allele, and report the differences between neighboring alleles in two CSV output files. Both of these files are used in various figures in the accompanying manuscript. 
 
 ```bash
 mkdir -p results/6_dose_curves/
