@@ -1,7 +1,0 @@
-{
-    "installOptions": {
-        "installFromRepository": true,
-        "libraryPath": "/usr/local/Cellar/r/4.2.2_1/lib/R/library",
-        "installDependencies": true
-    }
-}
