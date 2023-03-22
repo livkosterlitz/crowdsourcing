@@ -1,0 +1,17 @@
+﻿hosts,A,B,C,Genotype,Num_of_mutations
+Ec,0,0,0,WT,0
+Ec,1,0,0,A,1
+Ec,0,1,0,B,1
+Ec,0,0,1,C,1
+Ec,1,1,0,AB,2
+Ec,1,0,1,AC,2
+Ec,0,1,1,BC,2
+Ec,1,1,1,ABC,3
+Kp,0,0,0,WT,0
+Kp,1,0,0,A,1
+Kp,0,1,0,B,1
+Kp,0,0,1,C,1
+Kp,1,1,0,AB,2
+Kp,1,0,1,AC,2
+Kp,0,1,1,BC,2
+Kp,1,1,1,ABC,3

@@ -1,0 +1,13 @@
+﻿focal,mutant
+WT,A
+WT,B
+WT,C
+A,AB
+A,AC
+B,AB
+B,BC
+C,AC
+C,BC
+AB,ABC
+BC,ABC
+AC,ABC

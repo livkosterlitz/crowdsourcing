@@ -1,0 +1,11 @@
+﻿time,treatment,event,Species,Genotype
+0,noHGT,start,Ec,WT
+1,noHGT,mutation,Ec,C
+2,noHGT,mutation,Ec,BC
+3,noHGT,mutation,Ec,ABC
+0,HGT,start,Ec,WT
+1,HGT,mutation,Ec,C
+1.5,HGT,HGT,Kp,C
+2,HGT,mutation,Kp,BC
+2.5,HGT,HGT,Ec,BC
+3,HGT,mutation,Ec,ABC
