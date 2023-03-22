@@ -1,4 +1,3 @@
-cd /Users/oliviakosterlitz/Dropbox/preTUMS/Competition_analysis
 source activate crowd
 ## step 1: add read prefix
 mkdir -p results/
