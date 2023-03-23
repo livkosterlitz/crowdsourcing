@@ -1,0 +1,127 @@
+﻿Treatment_ID,Rep,Cumulative_time,Species_time,Species,Focal Species,Transient_host,N_transformants,mu,notes,time_step,Figure 3,SI Figure 2,SI Figure 3,SI Figure 7,SI Figure 8,SI Figure 9
+67,1000,60,60,Ec,Ec,*None,1000,1.00E-04,mutation sweep,60,,,,a,,
+68,1000,60,"20,20,20","Ec,Kp,Ec",Ec,Kp,1000,1.00E-04,mutation sweep,60,,,,a,,
+69,1000,60,"20,20,20","Ec,Se,Ec",Ec,Se,1000,1.00E-04,mutation sweep,60,,,,a,,
+70,1000,60,60,Kp,Kp,*None,1000,1.00E-04,mutation sweep,60,,,,b,,
+71,1000,60,"20,20,20","Kp,Ec,Kp",Kp,Ec,1000,1.00E-04,mutation sweep,60,,,,b,,
+72,1000,60,"20,20,20","Kp,Se,Kp",Kp,Se,1000,1.00E-04,mutation sweep,60,,,,b,,
+73,1000,60,60,Se,Se,*None,1000,1.00E-04,mutation sweep,60,,,,c,,
+74,1000,60,"20,20,20","Se,Ec,Se",Se,Ec,1000,1.00E-04,mutation sweep,60,,,,c,,
+75,1000,60,"20,20,20","Se,Kp,Se",Se,Kp,1000,1.00E-04,mutation sweep,60,,,,c,,
+76,1000,60,60,Ec,Ec,*None,1000,5.00E-05,baseline,60,d,,a,x,x,x
+77,1000,60,"20,20,20","Ec,Kp,Ec",Ec,Kp,1000,5.00E-05,baseline,60,d,,a,x,x,x
+78,1000,60,"20,20,20","Ec,Se,Ec",Ec,Se,1000,5.00E-05,baseline,60,d,,a,x,x,x
+79,1000,60,60,Kp,Kp,*None,1000,5.00E-05,baseline,60,,a,b,x,x,x
+80,1000,60,"20,20,20","Kp,Ec,Kp",Kp,Ec,1000,5.00E-05,baseline,60,,b,b,x,x,x
+81,1000,60,"20,20,20","Kp,Se,Kp",Kp,Se,1000,5.00E-05,baseline,60,,c,b,x,x,x
+82,1000,60,60,Se,Se,*None,1000,5.00E-05,baseline,60,,d,c,x,x,x
+83,1000,60,"20,20,20","Se,Ec,Se",Se,Ec,1000,5.00E-05,baseline,60,,e,c,x,x,x
+84,1000,60,"20,20,20","Se,Kp,Se",Se,Kp,1000,5.00E-05,baseline,60,,f,c,x,x,x
+85,1000,60,60,Ec,Ec,*None,1000,5.00E-04,mutation sweep,60,,,,a,,
+86,1000,60,"20,20,20","Ec,Kp,Ec",Ec,Kp,1000,5.00E-04,mutation sweep,60,,,,a,,
+87,1000,60,"20,20,20","Ec,Se,Ec",Ec,Se,1000,5.00E-04,mutation sweep,60,,,,a,,
+88,1000,60,60,Kp,Kp,*None,1000,5.00E-04,mutation sweep,60,,,,b,,
+89,1000,60,"20,20,20","Kp,Ec,Kp",Kp,Ec,1000,5.00E-04,mutation sweep,60,,,,b,,
+90,1000,60,"20,20,20","Kp,Se,Kp",Kp,Se,1000,5.00E-04,mutation sweep,60,,,,b,,
+91,1000,60,60,Se,Se,*None,1000,5.00E-04,mutation sweep,60,,,,c,,
+92,1000,60,"20,20,20","Se,Ec,Se",Se,Ec,1000,5.00E-04,mutation sweep,60,,,,c,,
+93,1000,60,"20,20,20","Se,Kp,Se",Se,Kp,1000,5.00E-04,mutation sweep,60,,,,c,,
+94,1000,60,60,Ec,Ec,*None,1000,1.00E-05,mutation sweep,60,,,,a,,
+95,1000,60,"20,20,20","Ec,Kp,Ec",Ec,Kp,1000,1.00E-05,mutation sweep,60,,,,a,,
+96,1000,60,"20,20,20","Ec,Se,Ec",Ec,Se,1000,1.00E-05,mutation sweep,60,,,,a,,
+97,1000,60,60,Kp,Kp,*None,1000,1.00E-05,mutation sweep,60,,,,b,,
+98,1000,60,"20,20,20","Kp,Ec,Kp",Kp,Ec,1000,1.00E-05,mutation sweep,60,,,,b,,
+99,1000,60,"20,20,20","Kp,Se,Kp",Kp,Se,1000,1.00E-05,mutation sweep,60,,,,b,,
+100,1000,60,60,Se,Se,*None,1000,1.00E-05,mutation sweep,60,,,,c,,
+101,1000,60,"20,20,20","Se,Ec,Se",Se,Ec,1000,1.00E-05,mutation sweep,60,,,,c,,
+102,1000,60,"20,20,20","Se,Kp,Se",Se,Kp,1000,1.00E-05,mutation sweep,60,,,,c,,
+103,1000,60,60,Ec,Ec,*None,1000,1.00E-06,mutation sweep,60,,,,a,,
+104,1000,60,"20,20,20","Ec,Kp,Ec",Ec,Kp,1000,1.00E-06,mutation sweep,60,,,,a,,
+105,1000,60,"20,20,20","Ec,Se,Ec",Ec,Se,1000,1.00E-06,mutation sweep,60,,,,a,,
+106,1000,60,60,Kp,Kp,*None,1000,1.00E-06,mutation sweep,60,,,,b,,
+107,1000,60,"20,20,20","Kp,Ec,Kp",Kp,Ec,1000,1.00E-06,mutation sweep,60,,,,b,,
+108,1000,60,"20,20,20","Kp,Se,Kp",Kp,Se,1000,1.00E-06,mutation sweep,60,,,,b,,
+109,1000,60,60,Se,Se,*None,1000,1.00E-06,mutation sweep,60,,,,c,,
+110,1000,60,"20,20,20","Se,Ec,Se",Se,Ec,1000,1.00E-06,mutation sweep,60,,,,c,,
+111,1000,60,"20,20,20","Se,Kp,Se",Se,Kp,1000,1.00E-06,mutation sweep,60,,,,c,,
+112,1000,60,60,Ec,Ec,*None,1000,5.00E-06,mutation sweep,60,,,,a,,
+113,1000,60,"20,20,20","Ec,Kp,Ec",Ec,Kp,1000,5.00E-06,mutation sweep,60,,,,a,,
+114,1000,60,"20,20,20","Ec,Se,Ec",Ec,Se,1000,5.00E-06,mutation sweep,60,,,,a,,
+115,1000,60,60,Kp,Kp,*None,1000,5.00E-06,mutation sweep,60,,,,b,,
+116,1000,60,"20,20,20","Kp,Ec,Kp",Kp,Ec,1000,5.00E-06,mutation sweep,60,,,,b,,
+117,1000,60,"20,20,20","Kp,Se,Kp",Kp,Se,1000,5.00E-06,mutation sweep,60,,,,b,,
+118,1000,60,60,Se,Se,*None,1000,5.00E-06,mutation sweep,60,,,,c,,
+119,1000,60,"20,20,20","Se,Ec,Se",Se,Ec,1000,5.00E-06,mutation sweep,60,,,,c,,
+120,1000,60,"20,20,20","Se,Kp,Se",Se,Kp,1000,5.00E-06,mutation sweep,60,,,,c,,
+121,5000,60,60,Ec,Ec,*None,1000,5.00E-05,replicate sweep,60,,,,,,a
+122,5000,60,"20,20,20","Ec,Kp,Ec",Ec,Kp,1000,5.00E-05,replicate sweep,60,,,,,,a
+123,5000,60,"20,20,20","Ec,Se,Ec",Ec,Se,1000,5.00E-05,replicate sweep,60,,,,,,a
+124,5000,60,60,Kp,Kp,*None,1000,5.00E-05,replicate sweep,60,,,,,,b
+125,5000,60,"20,20,20","Kp,Ec,Kp",Kp,Ec,1000,5.00E-05,replicate sweep,60,,,,,,b
+126,5000,60,"20,20,20","Kp,Se,Kp",Kp,Se,1000,5.00E-05,replicate sweep,60,,,,,,b
+127,5000,60,60,Se,Se,*None,1000,5.00E-05,replicate sweep,60,,,,,,c
+128,5000,60,"20,20,20","Se,Ec,Se",Se,Ec,1000,5.00E-05,replicate sweep,60,,,,,,c
+129,5000,60,"20,20,20","Se,Kp,Se",Se,Kp,1000,5.00E-05,replicate sweep,60,,,,,,c
+130,10000,60,60,Ec,Ec,*None,1000,5.00E-05,replicate sweep,60,,,,,,a
+131,10000,60,"20,20,20","Ec,Kp,Ec",Ec,Kp,1000,5.00E-05,replicate sweep,60,,,,,,a
+132,10000,60,"20,20,20","Ec,Se,Ec",Ec,Se,1000,5.00E-05,replicate sweep,60,,,,,,a
+133,10000,60,60,Kp,Kp,*None,1000,5.00E-05,replicate sweep,60,,,,,,b
+134,10000,60,"20,20,20","Kp,Ec,Kp",Kp,Ec,1000,5.00E-05,replicate sweep,60,,,,,,b
+135,10000,60,"20,20,20","Kp,Se,Kp",Kp,Se,1000,5.00E-05,replicate sweep,60,,,,,,b
+136,10000,60,60,Se,Se,*None,1000,5.00E-05,replicate sweep,60,,,,,,c
+137,10000,60,"20,20,20","Se,Ec,Se",Se,Ec,1000,5.00E-05,replicate sweep,60,,,,,,c
+138,10000,60,"20,20,20","Se,Kp,Se",Se,Kp,1000,5.00E-05,replicate sweep,60,,,,,,c
+139,500,60,60,Ec,Ec,*None,1000,5.00E-05,replicate sweep,60,,,,,,a
+140,500,60,"20,20,20","Ec,Kp,Ec",Ec,Kp,1000,5.00E-05,replicate sweep,60,,,,,,a
+141,500,60,"20,20,20","Ec,Se,Ec",Ec,Se,1000,5.00E-05,replicate sweep,60,,,,,,a
+142,500,60,60,Kp,Kp,*None,1000,5.00E-05,replicate sweep,60,,,,,,b
+143,500,60,"20,20,20","Kp,Ec,Kp",Kp,Ec,1000,5.00E-05,replicate sweep,60,,,,,,b
+144,500,60,"20,20,20","Kp,Se,Kp",Kp,Se,1000,5.00E-05,replicate sweep,60,,,,,,b
+145,500,60,60,Se,Se,*None,1000,5.00E-05,replicate sweep,60,,,,,,c
+146,500,60,"20,20,20","Se,Ec,Se",Se,Ec,1000,5.00E-05,replicate sweep,60,,,,,,c
+147,500,60,"20,20,20","Se,Kp,Se",Se,Kp,1000,5.00E-05,replicate sweep,60,,,,,,c
+148,100,60,60,Ec,Ec,*None,1000,5.00E-05,replicate sweep,60,,,,,,a
+149,100,60,"20,20,20","Ec,Kp,Ec",Ec,Kp,1000,5.00E-05,replicate sweep,60,,,,,,a
+150,100,60,"20,20,20","Ec,Se,Ec",Ec,Se,1000,5.00E-05,replicate sweep,60,,,,,,a
+151,100,60,60,Kp,Kp,*None,1000,5.00E-05,replicate sweep,60,,,,,,b
+152,100,60,"20,20,20","Kp,Ec,Kp",Kp,Ec,1000,5.00E-05,replicate sweep,60,,,,,,b
+153,100,60,"20,20,20","Kp,Se,Kp",Kp,Se,1000,5.00E-05,replicate sweep,60,,,,,,b
+154,100,60,60,Se,Se,*None,1000,5.00E-05,replicate sweep,60,,,,,,c
+155,100,60,"20,20,20","Se,Ec,Se",Se,Ec,1000,5.00E-05,replicate sweep,60,,,,,,c
+156,100,60,"20,20,20","Se,Kp,Se",Se,Kp,1000,5.00E-05,replicate sweep,60,,,,,,c
+157,1000,30,30,Ec,Ec,*None,1000,5.00E-05,time step sweep,30,,,,,a,
+158,1000,30,"10,10,10","Ec,Kp,Ec",Ec,Kp,1000,5.00E-05,time step sweep,30,,,,,a,
+159,1000,30,"10,10,10","Ec,Se,Ec",Ec,Se,1000,5.00E-05,time step sweep,30,,,,,a,
+160,1000,30,30,Kp,Kp,*None,1000,5.00E-05,time step sweep,30,,,,,b,
+161,1000,30,"10,10,10","Kp,Ec,Kp",Kp,Ec,1000,5.00E-05,time step sweep,30,,,,,b,
+162,1000,30,"10,10,10","Kp,Se,Kp",Kp,Se,1000,5.00E-05,time step sweep,30,,,,,b,
+163,1000,30,30,Se,Se,*None,1000,5.00E-05,time step sweep,30,,,,,c,
+164,1000,30,"10,10,10","Se,Ec,Se",Se,Ec,1000,5.00E-05,time step sweep,30,,,,,c,
+165,1000,30,"10,10,10","Se,Kp,Se",Se,Kp,1000,5.00E-05,time step sweep,30,,,,,c,
+166,1000,45,45,Ec,Ec,*None,1000,5.00E-05,time step sweep,45,,,,,a,
+167,1000,45,"15,15,15","Ec,Kp,Ec",Ec,Kp,1000,5.00E-05,time step sweep,45,,,,,a,
+168,1000,45,"15,15,15","Ec,Se,Ec",Ec,Se,1000,5.00E-05,time step sweep,45,,,,,a,
+169,1000,45,45,Kp,Kp,*None,1000,5.00E-05,time step sweep,45,,,,,b,
+170,1000,45,"15,15,15","Kp,Ec,Kp",Kp,Ec,1000,5.00E-05,time step sweep,45,,,,,b,
+171,1000,45,"15,15,15","Kp,Se,Kp",Kp,Se,1000,5.00E-05,time step sweep,45,,,,,b,
+172,1000,45,45,Se,Se,*None,1000,5.00E-05,time step sweep,45,,,,,c,
+173,1000,45,"15,15,15","Se,Ec,Se",Se,Ec,1000,5.00E-05,time step sweep,45,,,,,c,
+174,1000,45,"15,15,15","Se,Kp,Se",Se,Kp,1000,5.00E-05,time step sweep,45,,,,,c,
+175,1000,75,75,Ec,Ec,*None,1000,5.00E-05,time step sweep,75,,,,,a,
+176,1000,75,"25,25,25","Ec,Kp,Ec",Ec,Kp,1000,5.00E-05,time step sweep,75,,,,,a,
+177,1000,75,"25,25,25","Ec,Se,Ec",Ec,Se,1000,5.00E-05,time step sweep,75,,,,,a,
+178,1000,75,75,Kp,Kp,*None,1000,5.00E-05,time step sweep,75,,,,,b,
+179,1000,75,"25,25,25","Kp,Ec,Kp",Kp,Ec,1000,5.00E-05,time step sweep,75,,,,,b,
+180,1000,75,"25,25,25","Kp,Se,Kp",Kp,Se,1000,5.00E-05,time step sweep,75,,,,,b,
+181,1000,75,75,Se,Se,*None,1000,5.00E-05,time step sweep,75,,,,,c,
+182,1000,75,"25,25,25","Se,Ec,Se",Se,Ec,1000,5.00E-05,time step sweep,75,,,,,c,
+183,1000,75,"25,25,25","Se,Kp,Se",Se,Kp,1000,5.00E-05,time step sweep,75,,,,,c,
+184,1000,90,90,Ec,Ec,*None,1000,5.00E-05,time step sweep,90,,,,,a,
+185,1000,90,"30,30,30","Ec,Kp,Ec",Ec,Kp,1000,5.00E-05,time step sweep,90,,,,,a,
+186,1000,90,"30,30,30","Ec,Se,Ec",Ec,Se,1000,5.00E-05,time step sweep,90,,,,,a,
+187,1000,90,90,Kp,Kp,*None,1000,5.00E-05,time step sweep,90,,,,,b,
+188,1000,90,"30,30,30","Kp,Ec,Kp",Kp,Ec,1000,5.00E-05,time step sweep,90,,,,,b,
+189,1000,90,"30,30,30","Kp,Se,Kp",Kp,Se,1000,5.00E-05,time step sweep,90,,,,,b,
+190,1000,90,90,Se,Se,*None,1000,5.00E-05,time step sweep,90,,,,,c,
+191,1000,90,"30,30,30","Se,Ec,Se",Se,Ec,1000,5.00E-05,time step sweep,90,,,,,c,
+192,1000,90,"30,30,30","Se,Kp,Se",Se,Kp,1000,5.00E-05,time step sweep,90,,,,,c,

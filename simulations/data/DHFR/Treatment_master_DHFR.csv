@@ -1,0 +1,127 @@
+﻿Treatment_ID,Rep,Cumulative_time,Species_time,Species,Focal Species,N_transformants,mu,Transient_host,notes,time_step,SI Figure 5,SI Figure 6,SI Figure 10,SI Figure 11,SI Figure 12
+68,1000,36,36,Ec1,Ec1,1000,5.00E-04,*Ec1,mutation sweep,36,,,a,,
+69,1000,36,"12,12,12","Ec1,Ec2,Ec1",Ec1,1000,5.00E-04,Ec2,mutation sweep,36,,,a,,
+70,1000,36,"12,12,12","Ec1,Ec3,Ec1",Ec1,1000,5.00E-04,Ec3,mutation sweep,36,,,a,,
+71,1000,36,36,Ec1,Ec1,1000,1.00E-04,*Ec1,mutation sweep,36,,,a,,
+72,1000,36,"12,12,12","Ec1,Ec2,Ec1",Ec1,1000,1.00E-04,Ec2,mutation sweep,36,,,a,,
+73,1000,36,"12,12,12","Ec1,Ec3,Ec1",Ec1,1000,1.00E-04,Ec3,mutation sweep,36,,,a,,
+74,1000,36,36,Ec1,Ec1,1000,5.00E-05,*Ec1,baseline,36,a,a,x,x,x
+75,1000,36,"12,12,12","Ec1,Ec2,Ec1",Ec1,1000,5.00E-05,Ec2,baseline,36,b,a,x,x,x
+76,1000,36,"12,12,12","Ec1,Ec3,Ec1",Ec1,1000,5.00E-05,Ec3,baseline,36,c,a,x,x,x
+77,1000,36,36,Ec1,Ec1,1000,1.00E-05,*Ec1,mutation sweep,36,,,a,,
+78,1000,36,"12,12,12","Ec1,Ec2,Ec1",Ec1,1000,1.00E-05,Ec2,mutation sweep,36,,,a,,
+79,1000,36,"12,12,12","Ec1,Ec3,Ec1",Ec1,1000,1.00E-05,Ec3,mutation sweep,36,,,a,,
+80,1000,36,36,Ec1,Ec1,1000,5.00E-06,*Ec1,mutation sweep,36,,,a,,
+81,1000,36,"12,12,12","Ec1,Ec2,Ec1",Ec1,1000,5.00E-06,Ec2,mutation sweep,36,,,a,,
+82,1000,36,"12,12,12","Ec1,Ec3,Ec1",Ec1,1000,5.00E-06,Ec3,mutation sweep,36,,,a,,
+83,1000,36,36,Ec1,Ec1,1000,1.00E-06,*Ec1,mutation sweep,36,,,a,,
+84,1000,36,"12,12,12","Ec1,Ec2,Ec1",Ec1,1000,1.00E-06,Ec2,mutation sweep,36,,,a,,
+85,1000,36,"12,12,12","Ec1,Ec3,Ec1",Ec1,1000,1.00E-06,Ec3,mutation sweep,36,,,a,,
+86,1000,36,36,Ec2,Ec2,1000,5.00E-04,*Ec2,mutation sweep,36,,,b,,
+87,1000,36,"12,12,12","Ec2,Ec1,Ec2",Ec2,1000,5.00E-04,Ec1,mutation sweep,36,,,b,,
+88,1000,36,"12,12,12","Ec2,Ec3,Ec2",Ec2,1000,5.00E-04,Ec3,mutation sweep,36,,,b,,
+89,1000,36,36,Ec2,Ec2,1000,1.00E-04,*Ec2,mutation sweep,36,,,b,,
+90,1000,36,"12,12,12","Ec2,Ec1,Ec2",Ec2,1000,1.00E-04,Ec1,mutation sweep,36,,,b,,
+91,1000,36,"12,12,12","Ec2,Ec3,Ec2",Ec2,1000,1.00E-04,Ec3,mutation sweep,36,,,b,,
+92,1000,36,36,Ec2,Ec2,1000,5.00E-05,*Ec2,baseline,36,d,b,x,x,x
+93,1000,36,"12,12,12","Ec2,Ec1,Ec2",Ec2,1000,5.00E-05,Ec1,baseline,36,e,b,x,x,x
+94,1000,36,"12,12,12","Ec2,Ec3,Ec2",Ec2,1000,5.00E-05,Ec3,baseline,36,f,b,x,x,x
+95,1000,36,36,Ec2,Ec2,1000,1.00E-05,*Ec2,mutation sweep,36,,,b,,
+96,1000,36,"12,12,12","Ec2,Ec1,Ec2",Ec2,1000,1.00E-05,Ec1,mutation sweep,36,,,b,,
+97,1000,36,"12,12,12","Ec2,Ec3,Ec2",Ec2,1000,1.00E-05,Ec3,mutation sweep,36,,,b,,
+98,1000,36,36,Ec2,Ec2,1000,5.00E-06,*Ec2,mutation sweep,36,,,b,,
+99,1000,36,"12,12,12","Ec2,Ec1,Ec2",Ec2,1000,5.00E-06,Ec1,mutation sweep,36,,,b,,
+100,1000,36,"12,12,12","Ec2,Ec3,Ec2",Ec2,1000,5.00E-06,Ec3,mutation sweep,36,,,b,,
+101,1000,36,36,Ec2,Ec2,1000,1.00E-06,*Ec2,mutation sweep,36,,,b,,
+102,1000,36,"12,12,12","Ec2,Ec1,Ec2",Ec2,1000,1.00E-06,Ec1,mutation sweep,36,,,b,,
+103,1000,36,"12,12,12","Ec2,Ec3,Ec2",Ec2,1000,1.00E-06,Ec3,mutation sweep,36,,,b,,
+104,1000,36,36,Ec3,Ec3,1000,5.00E-04,*Ec3,mutation sweep,36,,,c,,
+105,1000,36,"12,12,12","Ec3,Ec1,Ec3",Ec3,1000,5.00E-04,Ec1,mutation sweep,36,,,c,,
+106,1000,36,"12,12,12","Ec3,Ec2,Ec3",Ec3,1000,5.00E-04,Ec2,mutation sweep,36,,,c,,
+107,1000,36,36,Ec3,Ec3,1000,1.00E-04,*Ec3,mutation sweep,36,,,c,,
+108,1000,36,"12,12,12","Ec3,Ec1,Ec3",Ec3,1000,1.00E-04,Ec1,mutation sweep,36,,,c,,
+109,1000,36,"12,12,12","Ec3,Ec2,Ec3",Ec3,1000,1.00E-04,Ec2,mutation sweep,36,,,c,,
+110,1000,36,36,Ec3,Ec3,1000,5.00E-05,*Ec3,baseline,36,g,c,x,x,x
+111,1000,36,"12,12,12","Ec3,Ec1,Ec3",Ec3,1000,5.00E-05,Ec1,baseline,36,h,c,x,x,x
+112,1000,36,"12,12,12","Ec3,Ec2,Ec3",Ec3,1000,5.00E-05,Ec2,baseline,36,i,c,x,x,x
+113,1000,36,36,Ec3,Ec3,1000,1.00E-05,*Ec3,mutation sweep,36,,,c,,
+114,1000,36,"12,12,12","Ec3,Ec1,Ec3",Ec3,1000,1.00E-05,Ec1,mutation sweep,36,,,c,,
+115,1000,36,"12,12,12","Ec3,Ec2,Ec3",Ec3,1000,1.00E-05,Ec2,mutation sweep,36,,,c,,
+116,1000,36,36,Ec3,Ec3,1000,5.00E-06,*Ec3,mutation sweep,36,,,c,,
+117,1000,36,"12,12,12","Ec3,Ec1,Ec3",Ec3,1000,5.00E-06,Ec1,mutation sweep,36,,,c,,
+118,1000,36,"12,12,12","Ec3,Ec2,Ec3",Ec3,1000,5.00E-06,Ec2,mutation sweep,36,,,c,,
+119,1000,36,36,Ec3,Ec3,1000,1.00E-06,*Ec3,mutation sweep,36,,,c,,
+120,1000,36,"12,12,12","Ec3,Ec1,Ec3",Ec3,1000,1.00E-06,Ec1,mutation sweep,36,,,c,,
+121,1000,36,"12,12,12","Ec3,Ec2,Ec3",Ec3,1000,1.00E-06,Ec2,mutation sweep,36,,,c,,
+122,100,36,36,Ec1,Ec1,1000,5.00E-05,*Ec1,replicate sweep,36,,,,,a
+123,100,36,"12,12,12","Ec1,Ec2,Ec1",Ec1,1000,5.00E-05,Ec2,replicate sweep,36,,,,,a
+124,100,36,"12,12,12","Ec1,Ec3,Ec1",Ec1,1000,5.00E-05,Ec3,replicate sweep,36,,,,,a
+125,100,36,36,Ec2,Ec2,1000,5.00E-05,*Ec2,replicate sweep,36,,,,,b
+126,100,36,"12,12,12","Ec2,Ec1,Ec2",Ec2,1000,5.00E-05,Ec1,replicate sweep,36,,,,,b
+127,100,36,"12,12,12","Ec2,Ec3,Ec2",Ec2,1000,5.00E-05,Ec3,replicate sweep,36,,,,,b
+128,100,36,36,Ec3,Ec3,1000,5.00E-05,*Ec3,replicate sweep,36,,,,,c
+129,100,36,"12,12,12","Ec3,Ec1,Ec3",Ec3,1000,5.00E-05,Ec1,replicate sweep,36,,,,,c
+130,100,36,"12,12,12","Ec3,Ec2,Ec3",Ec3,1000,5.00E-05,Ec2,replicate sweep,36,,,,,c
+131,500,36,36,Ec1,Ec1,1000,5.00E-05,*Ec1,replicate sweep,36,,,,,a
+132,500,36,"12,12,12","Ec1,Ec2,Ec1",Ec1,1000,5.00E-05,Ec2,replicate sweep,36,,,,,a
+133,500,36,"12,12,12","Ec1,Ec3,Ec1",Ec1,1000,5.00E-05,Ec3,replicate sweep,36,,,,,a
+134,500,36,36,Ec2,Ec2,1000,5.00E-05,*Ec2,replicate sweep,36,,,,,b
+135,500,36,"12,12,12","Ec2,Ec1,Ec2",Ec2,1000,5.00E-05,Ec1,replicate sweep,36,,,,,b
+136,500,36,"12,12,12","Ec2,Ec3,Ec2",Ec2,1000,5.00E-05,Ec3,replicate sweep,36,,,,,b
+137,500,36,36,Ec3,Ec3,1000,5.00E-05,*Ec3,replicate sweep,36,,,,,c
+138,500,36,"12,12,12","Ec3,Ec1,Ec3",Ec3,1000,5.00E-05,Ec1,replicate sweep,36,,,,,c
+139,500,36,"12,12,12","Ec3,Ec2,Ec3",Ec3,1000,5.00E-05,Ec2,replicate sweep,36,,,,,c
+140,5000,36,36,Ec1,Ec1,1000,5.00E-05,*Ec1,replicate sweep,36,,,,,a
+141,5000,36,"12,12,12","Ec1,Ec2,Ec1",Ec1,1000,5.00E-05,Ec2,replicate sweep,36,,,,,a
+142,5000,36,"12,12,12","Ec1,Ec3,Ec1",Ec1,1000,5.00E-05,Ec3,replicate sweep,36,,,,,a
+143,5000,36,36,Ec2,Ec2,1000,5.00E-05,*Ec2,replicate sweep,36,,,,,b
+144,5000,36,"12,12,12","Ec2,Ec1,Ec2",Ec2,1000,5.00E-05,Ec1,replicate sweep,36,,,,,b
+145,5000,36,"12,12,12","Ec2,Ec3,Ec2",Ec2,1000,5.00E-05,Ec3,replicate sweep,36,,,,,b
+146,5000,36,36,Ec3,Ec3,1000,5.00E-05,*Ec3,replicate sweep,36,,,,,c
+147,5000,36,"12,12,12","Ec3,Ec1,Ec3",Ec3,1000,5.00E-05,Ec1,replicate sweep,36,,,,,c
+148,5000,36,"12,12,12","Ec3,Ec2,Ec3",Ec3,1000,5.00E-05,Ec2,replicate sweep,36,,,,,c
+149,10000,36,36,Ec1,Ec1,1000,5.00E-05,*Ec1,replicate sweep,36,,,,,a
+150,10000,36,"12,12,12","Ec1,Ec2,Ec1",Ec1,1000,5.00E-05,Ec2,replicate sweep,36,,,,,a
+151,10000,36,"12,12,12","Ec1,Ec3,Ec1",Ec1,1000,5.00E-05,Ec3,replicate sweep,36,,,,,a
+152,10000,36,36,Ec2,Ec2,1000,5.00E-05,*Ec2,replicate sweep,36,,,,,b
+153,10000,36,"12,12,12","Ec2,Ec1,Ec2",Ec2,1000,5.00E-05,Ec1,replicate sweep,36,,,,,b
+154,10000,36,"12,12,12","Ec2,Ec3,Ec2",Ec2,1000,5.00E-05,Ec3,replicate sweep,36,,,,,b
+155,10000,36,36,Ec3,Ec3,1000,5.00E-05,*Ec3,replicate sweep,36,,,,,c
+156,10000,36,"12,12,12","Ec3,Ec1,Ec3",Ec3,1000,5.00E-05,Ec1,replicate sweep,36,,,,,c
+157,10000,36,"12,12,12","Ec3,Ec2,Ec3",Ec3,1000,5.00E-05,Ec2,replicate sweep,36,,,,,c
+158,1000,18,18,Ec1,Ec1,1000,5.00E-05,*Ec1,time step sweep,18,,,,a,
+159,1000,18,"6,6,6","Ec1,Ec2,Ec1",Ec1,1000,5.00E-05,Ec2,time step sweep,18,,,,a,
+160,1000,18,"6,6,6","Ec1,Ec3,Ec1",Ec1,1000,5.00E-05,Ec3,time step sweep,18,,,,a,
+161,1000,18,18,Ec2,Ec2,1000,5.00E-05,*Ec2,time step sweep,18,,,,b,
+162,1000,18,"6,6,6","Ec2,Ec1,Ec2",Ec2,1000,5.00E-05,Ec1,time step sweep,18,,,,b,
+163,1000,18,"6,6,6","Ec2,Ec3,Ec2",Ec2,1000,5.00E-05,Ec3,time step sweep,18,,,,b,
+164,1000,18,18,Ec3,Ec3,1000,5.00E-05,*Ec3,time step sweep,18,,,,c,
+165,1000,18,"6,6,6","Ec3,Ec1,Ec3",Ec3,1000,5.00E-05,Ec1,time step sweep,18,,,,c,
+166,1000,18,"6,6,6","Ec3,Ec2,Ec3",Ec3,1000,5.00E-05,Ec2,time step sweep,18,,,,c,
+167,1000,27,27,Ec1,Ec1,1000,5.00E-05,*Ec1,time step sweep,27,,,,a,
+168,1000,27,"9,9,9","Ec1,Ec2,Ec1",Ec1,1000,5.00E-05,Ec2,time step sweep,27,,,,a,
+169,1000,27,"9,9,9","Ec1,Ec3,Ec1",Ec1,1000,5.00E-05,Ec3,time step sweep,27,,,,a,
+170,1000,27,27,Ec2,Ec2,1000,5.00E-05,*Ec2,time step sweep,27,,,,b,
+171,1000,27,"9,9,9","Ec2,Ec1,Ec2",Ec2,1000,5.00E-05,Ec1,time step sweep,27,,,,b,
+172,1000,27,"9,9,9","Ec2,Ec3,Ec2",Ec2,1000,5.00E-05,Ec3,time step sweep,27,,,,b,
+173,1000,27,27,Ec3,Ec3,1000,5.00E-05,*Ec3,time step sweep,27,,,,c,
+174,1000,27,"9,9,9","Ec3,Ec1,Ec3",Ec3,1000,5.00E-05,Ec1,time step sweep,27,,,,c,
+175,1000,27,"9,9,9","Ec3,Ec2,Ec3",Ec3,1000,5.00E-05,Ec2,time step sweep,27,,,,c,
+176,1000,45,45,Ec1,Ec1,1000,5.00E-05,*Ec1,time step sweep,45,,,,a,
+177,1000,45,"15,15,15","Ec1,Ec2,Ec1",Ec1,1000,5.00E-05,Ec2,time step sweep,45,,,,a,
+178,1000,45,"15,15,15","Ec1,Ec3,Ec1",Ec1,1000,5.00E-05,Ec3,time step sweep,45,,,,a,
+179,1000,45,45,Ec2,Ec2,1000,5.00E-05,*Ec2,time step sweep,45,,,,b,
+180,1000,45,"15,15,15","Ec2,Ec1,Ec2",Ec2,1000,5.00E-05,Ec1,time step sweep,45,,,,b,
+181,1000,45,"15,15,15","Ec2,Ec3,Ec2",Ec2,1000,5.00E-05,Ec3,time step sweep,45,,,,b,
+182,1000,45,45,Ec3,Ec3,1000,5.00E-05,*Ec3,time step sweep,45,,,,c,
+183,1000,45,"15,15,15","Ec3,Ec1,Ec3",Ec3,1000,5.00E-05,Ec1,time step sweep,45,,,,c,
+184,1000,45,"15,15,15","Ec3,Ec2,Ec3",Ec3,1000,5.00E-05,Ec2,time step sweep,45,,,,c,
+185,1000,54,54,Ec1,Ec1,1000,5.00E-05,*Ec1,time step sweep,54,,,,a,
+186,1000,54,"18,18,18","Ec1,Ec2,Ec1",Ec1,1000,5.00E-05,Ec2,time step sweep,54,,,,a,
+187,1000,54,"18,18,18","Ec1,Ec3,Ec1",Ec1,1000,5.00E-05,Ec3,time step sweep,54,,,,a,
+188,1000,54,54,Ec2,Ec2,1000,5.00E-05,*Ec2,time step sweep,54,,,,b,
+189,1000,54,"18,18,18","Ec2,Ec1,Ec2",Ec2,1000,5.00E-05,Ec1,time step sweep,54,,,,b,
+190,1000,54,"18,18,18","Ec2,Ec3,Ec2",Ec2,1000,5.00E-05,Ec3,time step sweep,54,,,,b,
+191,1000,54,54,Ec3,Ec3,1000,5.00E-05,*Ec3,time step sweep,54,,,,c,
+192,1000,54,"18,18,18","Ec3,Ec1,Ec3",Ec3,1000,5.00E-05,Ec1,time step sweep,54,,,,c,
+193,1000,54,"18,18,18","Ec3,Ec2,Ec3",Ec3,1000,5.00E-05,Ec2,time step sweep,54,,,,c,
