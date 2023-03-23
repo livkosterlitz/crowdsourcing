@@ -9,7 +9,7 @@ The project has a hierarchical structure that separates data, results, and scrip
 4. [bin](https://github.com/livkosterlitz/crowdsourcing/tree/main/simulations/bin): Utility files for creating the Anaconda environment and the master ```runall.sh``` shell script.
 
 # Program Requirements
-We provided a YAML [```.yml``` ]() file to be used with Anaconda to provide an environment for this specific project. It defines the packages and their specific versions needed to run this code smoothly. This makes it easy to replicate this workflow across different machines and platforms. 
+We provided a YAML [```.yml``` ](https://github.com/livkosterlitz/crowdsourcing/blob/main/simulations/bin/crowdsourcing_simulations_environment.yml) file to be used with Anaconda to provide an environment for this specific project. It defines the packages and their specific versions needed to run this code smoothly. This makes it easy to replicate this workflow across different machines and platforms. 
 
 ```bash
 conda env create -f bin/crowdsourcing_simulations_environment.yml
