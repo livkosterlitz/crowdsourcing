@@ -3,7 +3,4 @@ source activate crowdSims
 mkdir -p results/
 mkdir -p results/bla
 Rscript src/GradSelSim_bla.R
-## evolutionary simulations for the DHFR
-mkdir -p results/DHFR
-Rscript src/GradSelSim_DHFR.R
 conda deactivate
