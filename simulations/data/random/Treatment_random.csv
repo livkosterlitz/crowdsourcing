@@ -1,0 +1,3 @@
+﻿Treatment_ID,Rep,Cumulative_time,Species_time,Species,Focal Species,Transient_host,N_transformants,mu,notes,time_step
+Ec_N,500,60,60,Ec,Ec,*None,1000,5.00E-05,baseline,60
+Ec_HGT,500,60,"20,20,20","Ec,Kp,Ec",Ec,Kp,1000,5.00E-05,baseline,60

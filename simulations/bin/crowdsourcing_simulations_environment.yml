@@ -8,7 +8,7 @@ dependencies:
   - bwidget=1.9.14=h694c41f_1
   - bzip2=1.0.8=h0d85af4_4
   - c-ares=1.18.1=h0d85af4_0
-  - ca-certificates=2022.12.7=h033912b_0
+  - ca-certificates=2023.7.22=h8857fd0_0
   - cairo=1.16.0=h904041c_1014
   - cctools_osx-64=973.0.1=h48a5a9d_13
   - clang=15.0.7=h694c41f_1
@@ -76,11 +76,14 @@ dependencies:
   - mpfr=4.2.0=h4f9bd69_0
   - ncurses=6.3=h96cf925_1
   - openjdk=17.0.3=hbc0c0cd_6
-  - openssl=3.1.0=hfd90126_0
+  - openssl=3.1.2=h8a1eda9_0
   - pandoc=2.19.2=h694c41f_2
   - pango=1.50.14=hbd9bf65_0
+  - parallel=20230722=h694c41f_0
   - pcre2=10.40=h1c4e4bc_0
+  - perl=5.32.1=4_h0dc2134_perl5
   - pixman=0.40.0=hbcb3906_0
+  - r-argparse=2.1.5=r42h6115d3f_0
   - r-askpass=1.1=r42h815d134_3
   - r-assertthat=0.2.1=r42hc72bb7e_3
   - r-backports=1.4.1=r42h815d134_1
@@ -117,6 +120,7 @@ dependencies:
   - r-fansi=1.0.4=r42h815d134_0
   - r-farver=2.1.1=r42h49197e3_1
   - r-fastmap=1.1.1=r42h49197e3_0
+  - r-findpython=1.0.8=r42hc72bb7e_1
   - r-fontawesome=0.5.0=r42hc72bb7e_0
   - r-forcats=1.0.0=r42hc72bb7e_0
   - r-forge=0.2.0=r42hc72bb7e_4
