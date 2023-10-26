@@ -20,14 +20,12 @@ For the evolutionary simulations on the empirical landscapes, we have included a
 
 
 # Analysis Workflow for evolutionary simulations on randomly generated landscapes
-For the evolutionary simulations on randomly generated landscapes, we have included a [```runall_random.sh```](https://github.com/livkosterlitz/crowdsourcing/blob/main/competition_analysis/bin/runall_random.sh) script in our project to streamline the process of executing ......
-
-coming soon
+For the evolutionary simulations on randomly generated landscapes, we have included a [```runall_random.sh```](https://github.com/livkosterlitz/crowdsourcing/blob/main/competition_analysis/bin/runall_random.sh) script in our project to streamline the process of executing these simulations. Each step (outlined in the table below) has a corresponding sub-folder placed in the ```results/random``` sub-folder. 
 
 |Steps| Step description |
 | :--- | :--- | 
 | [Step 1](#Step-1) | Iterate through seeds to create randomly generated landscapes and calculate alignment metrics| 
 | [Step 2](#Step-2) | Filter and select the seeds| 
 | [Step 3](#Step-3) | Run the sims for each selected seed in parallel |
-| [Step 4](#Step-4) | |
-| [Step 5](#Step-5) | |
+| [Step 4](#Step-4) | Collect simulations and determine evolutionary outcomes |
+| [Step 5](#Step-5) | Permutation test to determine the significance between the landscape alignment and evolutionary outcome|
