@@ -24,8 +24,8 @@ For the evolutionary simulations on randomly generated landscapes, we have inclu
 
 |Steps| Step description |
 | :--- | :--- | 
-| [Step 1](#Step-1) | Iterate through seeds to create randomly generated landscapes and calculate alignment metrics| 
-| [Step 2](#Step-2) | Filter and select the seeds| 
-| [Step 3](#Step-3) | Run the sims for each selected seed in parallel |
-| [Step 4](#Step-4) | Collect simulations and determine evolutionary outcomes |
-| [Step 5](#Step-5) | Permutation test to determine the significance between the landscape alignment and evolutionary outcome|
+| Step 1 | Iterate through seeds to create randomly generated landscapes and calculate alignment metrics| 
+| Step 2 | Filter and select the seeds| 
+| Step 3 | Run the sims for each selected seed in parallel |
+| Step 4 | Collect simulations and determine evolutionary outcomes |
+| Step 5 | Permutation test to determine the significance between the landscape alignment and evolutionary outcome|
