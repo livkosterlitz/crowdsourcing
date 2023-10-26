@@ -22,7 +22,7 @@ echo "step 3 finished"
 mkdir -p results/random/4_treatment_comparison
 time Rscript src/Treatment_combine.R
 
-## step 5: permutation test to determine signficance between the landscape alignment and evolutionary outcomes
+## step 5: permutation test to determine the signficance between the landscape alignment and evolutionary outcomes
 Rscript src/PermutationCrowdsourcingTests.R
 
 conda deactivate
